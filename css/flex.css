@@ -1,0 +1,41 @@
+html {
+    line-height: 1.15;
+}
+
+body {
+    margin: 0;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.box {
+    flex-grow: 5;
+    background-color: rgb(205, 29, 149);
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    /* box-shadow: 0 0 0 0.5; */
+}
+
+
+@media screen and (max-width : 1200px){
+    .box{
+        font-size: 40px;
+    }
+}
+@media screen and(max-width : 768px){
+    .box{
+        font-size: 30px;
+    }
+}
+

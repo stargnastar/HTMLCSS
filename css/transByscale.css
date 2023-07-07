@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width : 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    /* background-color: pink; */
+    height:200px;
+}
+.box i{
+    font-size: 1.5rem;
+    color:brown;
+    background-color: blanchedalmond;
+    border-radius: 50px;
+    padding: 20px;
+
+    box-sizing: border-box;
+}
+
+/* 태블릿 */
+@media screen and (max-width : 1200px){
+    .box{
+        width:50%;
+    }
+}
+/* 모바일 */
+@media screen and (max-width : 768px){
+    .box{
+        width:100%;
+    }
+}

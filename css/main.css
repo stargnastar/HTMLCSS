@@ -1,0 +1,80 @@
+.img_profile{
+    width: 150px; 
+    height : 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.p_introduction{
+    font-size: 20px;
+    font-family :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: -1px;
+    text-align :center;
+    font-weight : 600;
+}
+.p_introduction_name{
+    color:pink;
+}
+
+.box{
+    margin : 20px;
+    padding : 30px;
+    border : 1px solid black;
+    border-radius: 5px;
+    width : 600px;
+    height : 200px;
+
+    display: block;
+    margin-left: auto;
+    margin-right : auto;
+
+    background-color: pink;
+
+    box-shadow: 3px 3px 4px gray;
+
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.bbody{
+    display :flex;
+    height: 400px;
+    flex-direction: row ;
+    justify-content: space-between;
+}
+.left{
+    width: 20%;
+    height: 100%;
+    background-color: aqua;
+}
+.right{
+    width: 80%;
+    height: 100%;
+    background-color: chartreuse;
+}
+.head{
+    width: 100%;
+    height : 100px;
+    background-color: darkcyan;
+}
+.foot{
+    width:100%;
+    height: 100px;
+    background-color: brown;
+}
+
+.left-box{
+    width :100px;
+    height :100px;
+    background-color: aqua;
+    display:inline-block;
+}
+.right-box{
+    width: 100px;
+    height:100px;
+    background-color: blue;
+    display:inline-block;
+}

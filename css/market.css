@@ -1,0 +1,131 @@
+@font-face{
+    font-family:'나눔';
+    src : url(../font/NanumSquare_acEB.ttf);
+}
+
+
+html{
+    line-height: 1.15;
+    font-family: 나눔;
+}
+body{
+    margin : 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height : 100vh;
+    background-color: #b2ccd6;
+}
+div{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 90%;
+    height: 600px;
+    
+    display: flex;
+    flex-direction: column;
+
+}
+.shopping-chart{
+    width: 100%;
+    max-width: 700px; 
+    border: none;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+.shopping-chart th{
+    padding :15px;
+ 
+}
+.shopping-chart td{
+    padding :15px;
+    border-top: 1px solid #133761;
+}
+.shopping-chart th:nth-child(1){
+    width :55%;
+}
+.shopping-chart th:nth-child(2){
+    width :15%;
+}
+.shopping-chart th:nth-child(3){
+    width :15%;
+}
+.shopping-chart th:nth-child(4){
+    width :15%;
+}
+.shopping-chart td:nth-child(2), .shopping-chart td:nth-child(3){
+    color: #9cabbd;
+    text-align: end;
+}
+.shopping-chart td:nth-child(4){
+    color: #133761;
+    text-align: end;
+}
+
+
+.shopping-chart tr:hover{
+    background: #46678e;
+}
+
+
+
+table{
+    /* box-shadow: 0 0 0 1px #666; */
+}
+
+.item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.product-img{
+    width : 100px;
+    height : 100px;
+    margin-right: 14px;
+}
+.logo{
+    width : 100px;
+    height: 30px;
+}
+.total-price{
+    text-align: end;
+    color: #133761;
+}
+
+.item-two{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.item-two a{
+    text-decoration: none;
+    color: #133761;
+}
+.item-two a:visited{
+    
+    color: red;
+}
+.btn{
+    width : 200px;
+    height : 50px;
+    border: none;
+    border-radius: 5px;
+    color:#f9f9f9;
+    padding: 10px;
+    background-color: #133761;
+    font-size: 15px;
+}
+/* 누르고 난 후 선택된 상황 */
+.btn:focus {
+    background: red;
+}
+/* 누르는 중 */
+.btn:active{
+    background-color: rgb(165, 42, 118);
+}
+
